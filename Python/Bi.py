@@ -25,4 +25,4 @@ obj = Demo(11,21)
 obj.fun()
 print("Instance Variable :",obj.Value1,obj.Value2)
 
-Demo.gun()
+Demo.gun() 
