@@ -1,0 +1,15 @@
+
+def Phoenix():
+        print("Inside Phoneix")
+
+        def zara():
+             print("Inside zara")
+
+        zara()
+        
+def main():
+    Phoenix()
+
+
+if __name__ == "__main__":
+        main()
