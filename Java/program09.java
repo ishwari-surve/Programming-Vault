@@ -1,33 +1,44 @@
-// for loop: used when we known "fixed iterations" to eg : count 0-9
-// business logic not in main function Type 3 
-import java.util.Scanner;
+//Accept two numbers from user and check whether it is even or odd
+/*
+    START
+        Accept number as No
+        If No is completely divisible by 2
+            then print Even
+        otherwise 
+            print odd
+    STOP
 
-class Program42
+    START
+        Accept number as No
+        Divide No by 2
+        If remander is 0 
+            then print as Even 
+        otherwise
+             print as Odd
+    STOP
+
+*/
+
+#include<stdio.h>
+
+int main()
 {
-    public static void Checkdivisible(String A[])
-    {
-        
-           boolean Checkdivisible(int iNo)
-           {
-             if((iValue % 3 == 0) && (iValue % 5 == 0 ))
-           {
-            System.out.println("Number is dividble by 3 & 5");
+   int iValue = 0;
+   int iRemainder = 0;
 
-           }
-           else
-           {
-            System.out.println("Number is not dividible by 3 & 5");
-           }
-           }
-           Scanner sobj = new Scanner(System.in);
+   printf("Enter number :\n");
+   scanf("%d",&iValue);
 
-           int iValue = 0;
+   iRemainder = iValue % 2; //Remainder
 
-           System.out.println("Enter number :");
-           iNo = sobj.nextInt();
+   if(iRemainder == 0)
+   {
+     printf("Number is Even : \n");
 
-           Checkdivisible(iValue); 
-    }
-    
+   }
+   else
+   {
+     printf("Number is odd : \n");
+   }
+    return 0;
 }
-
