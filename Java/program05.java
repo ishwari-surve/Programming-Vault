@@ -1,15 +1,23 @@
-// for loop: used when we known "fixed iterations" to eg : count 0-9
-//printf used 
+import java.util.Scanner;
 
-class Program38
+class Program05
 {
-    public static void main(String A[])
+    public static void main(String[] args)
     {
-        int iCnt = 0;
+        Scanner sobj = new Scanner(System.in);
 
-        for(iCnt =1 ; iCnt <= 10; iCnt ++)
-        {
-            System.out.printf("%d\n",iCnt);
-        }
+        float fValue1 = 0.0f;
+        float fValue2 = 0.0f;
+        float fResult = 0.0f;
+
+        System.out.println("Enter first number :");
+        fValue1 = sobj.nextFloat();
+
+        System.out.println("Enter second number :");
+        fValue2 = sobj.nextFloat();
+
+        fResult = fValue1 + fValue2;
+
+        System.out.println("Addition is : " + fResult);
     }
 }
