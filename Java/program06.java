@@ -1,30 +1,32 @@
-// for loop: used when we known "fixed iterations" to eg : count 0-9
-// business logic in main function Type 
-import java.util.Scanner;
+#include<stdio.h>
 
-class Program39
+float AddTwoNumbers(float fNo1,float fNo2)
+
 {
-    public static void main(String A[])
-    {
-        
-           Scanner sobj = new Scanner(System.in);
 
-           int iValue = 0;
+  float fAns = 0.0f;
 
-           System.out.println("Enter number :");
-           iValue = sobj.nextInt();
+  fAns = fNo1 + fNo2;
 
-           if((iValue % 3 == 0) && (iValue % 5 == 0 ))
-           {
-            System.out.println("Number is dividble by 3 & 5");
-
-           }
-           else
-           {
-            System.out.println("Number is not dividible by 3 & 5");
-           }
-
-    }
-    
+  return fAns;
 }
 
+
+int main()
+{
+   float fValue1 = 0.0f;                  //To store first input
+   float fValue2 =0.0f;                  // To store the input
+   float fResult = 0.0f;                 //  To store the result
+
+     printf("Enter first number :\n");
+   scanf("%f",&fValue1);
+
+   printf("Enter second number :\n");
+   scanf("%f",&fValue2);
+
+   fResult=AddTwoNumbers(fValue1,fValue2);
+
+   printf("Additon is : %f\n",fResult);
+    
+    return 0;
+}
