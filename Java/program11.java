@@ -1,48 +1,34 @@
-// for loop: used when we known "fixed iterations" to eg : count 0-9
-//  Type 3 
-import java.util.Scanner;
+#include<stdio.h>
 
-class NumberX
+int CheckEvenOdd(int iNo)
 {
-   public static boolean Checkdivisible(int iNo)
-    {
-        if((iNo % 3 == 0) && (iValue % 5 == 0 ))
-           {
-           return true ;
+    int iRemainder = 0;
+   iRemainder =iNo % 2;
 
-           }
-           else
-           {
-            return false ; 
-           }
-    }
+   return iRemainder;
+
 }
 
-class Program44
+   int main()
 {
+    int iValue = 0;
+    int iRet = 0;
+    printf("Enter number to check whether it is Even or Odd:");
+    scanf("%d",&iValue);
+
+   iRet= CheckEvenOdd(iValue);
+   
+   if(iRet == 0)
+   {
+     printf("%d is Even : \n",iValue);
+
+   }
+   else
+   {
+     printf("%d is odd : \n",iValue);
+   }
     
-           public static void main(String A[])
-          {
-             Scanner sobj = new Scanner(System.in);
 
-           int iValue = 0;
-
-           System.out.println("Enter number :");
-           boolean = sobj.nextInt();
-
-           bRet= NumberX.Checkdivisible(iValue); 
-
-           if (bRet == true)
-           {
-            System.out.println("Number is dividble by 3 & 5");
-           }
-           else
-           {
-             ystem.out.println("Number is  not dividble by 3 & 5");
-           }
-
-    }
-    
+   return 0;
+   
 }
-
-
