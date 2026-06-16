@@ -1,69 +1,42 @@
-// for loop: used when we known "fixed iterations" to eg : count 0-9
-// take number from user and do addition of factors that comes.
+#include<stdio.h>
 
-import java.util.Scanner;
+int CalculateTicketPrice(int iAge)
+{   
+    // Input Updater 
+    if(iAge < 0)
+    {
+        iAge = -iAge;
+    }
 
-class NumberX
-{
-   public boolean  CheckPerfect(int iNo)
-   {
-      //Logic
-       int iCnt = 0;
-       int iSum = 0;
-
-       for(iCnt=1; iCnt<=(iNo / 2); iCnt++)
-       {
-        if((iNo % iCnt)== 0)
-        {
-          iSum = iSum + iCnt;
-        }
-       }
-
-       if(iSum == iNo)
-       {
-         return true;
-       }
-       else
-       {
-         return false;
-       }
-   }
+    if(iAge>= 0 && iAge<=5)
+    {
+        return 0;
+    }
+    else if(iAge>=6 && iAge<=18)
+    {
+        return 500;
+    }
+    else if(iAge>=19 && iAge<=50)
+    {
+        return 900;
+    }
+    else
+    {
+        return 400;
+    }
 }
 
-class program50
+int main()
 {
-    
-   public static void main(String A[])
-  {
-     Scanner sobj = new Scanner(System.in);
-
     int iValue = 0;
-    boolean bRet = false;
+    int iRet = 0;
 
-     System.out.println("Enter number :");
-    iValue = sobj.nextInt();
+    printf("Please Enter your age to Calculate ticket Price : ");
+    scanf("%d",&iValue);
 
-     NumberX nobj = new NumberX();
+    iRet = CalculateTicketPrice(iValue);
 
-     bRet = nobj.CheckPerfect(iValue);
+    printf("Your ticket price will be %d Rupees\n",iRet);
 
-     if (bRet == true)
-     {
-      System.out.println("It is perfect");
-     }
-     else
-     {
-      System.out.println("It is not perfect");
-     }
-
-           
- }
-
-
+    return 0;
 }
-    
-
-//Time Complexity : o(N/2)
-//Where N >= 0
-
-
