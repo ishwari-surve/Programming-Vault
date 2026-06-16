@@ -1,27 +1,49 @@
-//Inout : 5
-//Output :  0 1 2 3  4 5
-
 #include<stdio.h>
 
-void Display(int iNo)
-{
-
-    int iCnt = 0;
-    for(iCnt = 0;iCnt <=iNo; iCnt++)
+int CalculateTicketPrice(int iAge) 
+{   
+    // Input Filter
+    if(iAge < 0)
     {
-        printf("%d\t",iCnt);
+        return -1;
     }
-    printf("\n");
 
+    if(iAge>= 0 && iAge<=5)
+    {
+        return 0;
+    }
+    else if(iAge>=6 && iAge<=18)
+    {
+        return 500;
+    }
+    else if(iAge>=19 && iAge<=50)
+    {
+        return 900;
+    }
+    else
+    {
+        return 400;
+    }
 }
+
 int main()
 {
     int iValue = 0;
+    int iRet = 0;
 
-    printf("Enter number:\n");
-    scanf("%d\n",iValue);
+    printf("Please Enter your age to Calculate ticket Price : ");
+    scanf("%d",&iValue);
 
-    Display(iValue);
+    iRet = CalculateTicketPrice(iValue);
 
+    if(iRet == -1)
+    {
+        printf("Please Enter Positive Age :/");
+    }
+    else
+    {
+        printf("Your ticket price will be %d Rupees\n",iRet);
+    }
+    
     return 0;
 }
