@@ -1,46 +1,41 @@
-// for loop: used when we known "fixed iterations" to eg : count 0-9
-// 
+#include<stdio.h>
+#include<stdbool.h>
 
-import java.util.Scanner;
-
-class NumberX
+bool CheckEvenOdd(int iNo)
 {
-   public void DisplayFactors(int iNo)
-   {
-      //Logic
-       int iCnt = 0;
-
-       for(iCnt=1; iCnt<=iNo; iCnt++)
-       {
-        if((iNo % iCnt)== 0)
-        {
-          System.out.println(iCnt);
-        }
-       }
-   }
-}
-
-class program46
-{
+    int iRemainder=0;
+    iRemainder = iNo % 2; 
     
-   public static void main(String A[])
-  {
-     Scanner sobj = new Scanner(System.in);
-
-    int iValue = 0;
-
-     System.out.println("Enter number :");
-    iValue = sobj.nextInt();
-
-     NumberX nobj = new NumberX();
-
-     nobj.DisplayFactors(iValue);
-  }
+    if (iRemainder == 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 
 }
 
-//Time Complexity : o(N)
-//Where N >= 0
 
+int main()
+{
+    int iValue =0;
+    bool bRet=false;
 
+    printf("Enter Number to check whether is it Even or Odd: ");
+    scanf("%d",&iValue);
 
+    bRet = CheckEvenOdd(iValue);
+
+    if (bRet == true)
+    {
+        printf("%d is Even\n",iValue);
+    }
+    else
+    {
+        printf("%d is Odd\n",iValue);
+    }
+
+    return 0;
+}
