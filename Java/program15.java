@@ -1,52 +1,37 @@
-// for loop: used when we known "fixed iterations" to eg : count 0-9
-// take number from user and do addition of factors that comes.
+#include<stdio.h>
+#include<stdbool.h>
 
-import java.util.Scanner;
-
-class NumberX
-{
-   public void SumFactors(int iNo)
-   {
-      //Logic
-       int iCnt = 0;
-       int iSum = 0;
-
-       for(iCnt=1; iCnt<=(iNo / 2); iCnt++)
-       {
-        if((iNo % iCnt)== 0)
-        {
-          iSum = iSum + iCnt;
-        }
-       }
-
-       System.out.println("Summation of factors :"+iSum);
-   }
+bool CheckEvenOdd(int iNo)
+{  
+    if ((iNo % 2) == 0)
+    {
+        return true;
+    }
+    else
+    { 
+        return false;
+    }
 }
 
-class program48
+
+int main()
 {
-    
-   public static void main(String A[])
-  {
-     Scanner sobj = new Scanner(System.in);
+    int iValue =0;
+    bool bRet=false;
 
-    int iValue = 0;
+    printf("Enter Number to check whether is it Even or Odd: ");
+    scanf("%d",&iValue);
 
-     System.out.println("Enter number :");
-    iValue = sobj.nextInt();
+    bRet = CheckEvenOdd(iValue);
 
-     NumberX nobj = new NumberX();
+    if (bRet)
+    {
+        printf("%d is Even\n",iValue);
+    }
+    else
+    {
+        printf("%d is Odd\n",iValue);
+    }
 
-     nobj.SumFactors(iValue);
-
-           
- }
-
-
+    return 0;
 }
-    
-
-//Time Complexity : o(N/2)
-//Where N >= 0
-
-
