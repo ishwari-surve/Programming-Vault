@@ -1,29 +1,21 @@
-// Scanner class (input is taken)
-import java.util.*;
+import java.util.Scanner;
 
-class Program36
+class Program03
 {
-    public static void main(String A[])
+    public static void main(String[] args)
     {
         Scanner sobj = new Scanner(System.in);
 
-        String sName = null;
-        int iAge = 0;
-        float fMarks = 0.0f;
+        float i, j, k;
 
-        System.out.println("Enter your name :");
-        sName = sobj.nextLine();
+        System.out.println("Enter first number :");
+        i = sobj.nextFloat();
 
-        System.out.println("Enter your Age :");
-        iAge = sobj.nextInt();
+        System.out.println("Enter second number :");
+        j = sobj.nextFloat();
 
-        System.out.println("Enter your marks :");
-        fMarks = sobj.nextFloat();
+        k = i + j;
 
-        System.out.println("Name : " + sName);
-        System.out.println("Age : " + iAge);
-        System.out.println("Marks : " + fMarks);
-
-        sobj.close();
+        System.out.println("Addition is : " + k);
     }
 }
