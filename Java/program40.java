@@ -19,7 +19,7 @@ class DigitX
     }
 }
 
-class program32
+class program40
 {
     public static void main(String A[])
     {
