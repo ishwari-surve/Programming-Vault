@@ -26,7 +26,7 @@ class NumberX
     }
 }
 
-class program15
+class program23
 {
     public static void main(String A[]) 
     {
