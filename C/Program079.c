@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 void Display(int Arr[])
-{   
+{    
     int iCnt = 0;
 
     for(iCnt = 0; iCnt < 8; iCnt++)
