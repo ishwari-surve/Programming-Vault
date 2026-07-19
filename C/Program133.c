@@ -4,7 +4,7 @@ void ReverseDisplay(char *str)
 {
     printf("%s\n",str);
 }
-
+ 
 int main()
 {
     char Arr[50] = {'\0'};
