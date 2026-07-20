@@ -2,7 +2,7 @@
 
 
 int main()
-{
+{ 
     unsigned iNo = 0;
     unsigned iMask = 4;
     unsigned iAns = 0;
