@@ -1,16 +1,16 @@
 #include<stdio.h>
 
-typedef unsigned int UINT;
+void Display()
+{
+    printf("Jay Ganesh...\n");
+    printf("Jay Ganesh...\n");
+    printf("Jay Ganesh...\n");
+    printf("Jay Ganesh...\n");
+}
 
 int main()
-{   
-    UINT iMask = 0xFFFFFFFF;
+{
+    Display();
     
-    printf("Before  : %X\n",iMask);
-
-    iMask = ~iMask;
-
-    printf("After   : %X\n",iMask);
-
     return 0;
 }
