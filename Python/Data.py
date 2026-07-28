@@ -1,6 +1,6 @@
 No = 11
 print(type(No))
-print(id(No))
+print(id(No)) 
 
 No=78.90
 print(type(No))
