@@ -1,7 +1,7 @@
 print("Enter first number:")
 No1=input()
 
-print("Enter second number:")
+print("Enter second number:") 
 No2=input()
 
 print(type(No1))
