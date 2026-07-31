@@ -2,7 +2,6 @@
 Value1=[10,20,30,40,10] 
 print(Value1[0]) #10
 
-
 #tuple Duplicate
 Value2=(10,20,30,40,10) 
 print(Value2[0]) #10
