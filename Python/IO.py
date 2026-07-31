@@ -1,6 +1,6 @@
 print("Enter Your Name:")
 Name=input()
-
+ 
 print("Hello",Name)
 
 print("Enter your age:")
