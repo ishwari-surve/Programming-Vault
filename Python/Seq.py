@@ -1,7 +1,7 @@
 #list Duplicate
 Value1=[10,20,30,40,10] 
 print(Value1[0]) #10
-Value1[2]=35
+Value1[2]=35 
 print(Value1[2])
 
 
