@@ -7,7 +7,7 @@ class Demo:
 
 print("Class Variable No:",Demo.No)
 
-obj1=Demo(11,21)
+obj1=Demo(11,21) 
 obj2=Demo(51,101)
 
 print("Instance Variable of obj1 :",obj1.Value1,obj1.Value2)
