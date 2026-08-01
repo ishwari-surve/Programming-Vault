@@ -5,7 +5,7 @@ class Demo:
     No1 = 11  #class variable
     No2 = 10
 
-    def __init__(self):
+    def __init__(self): 
         #Instance Variable
         self.A=101
         self.B=201
