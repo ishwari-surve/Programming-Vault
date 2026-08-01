@@ -3,7 +3,7 @@ class Demo:
 
     def __init__(self,A,B):
         self.Value1=A
-        self.Value2=B
+        self.Value2=B 
 
 print("Class Variable No:",Demo.No)
 
