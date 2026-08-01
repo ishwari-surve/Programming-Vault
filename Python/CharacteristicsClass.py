@@ -3,7 +3,7 @@ import gc
 class Demo:
     #Class variable
     No1 = 11  #class variable
-    No2 = 10
+    No2 = 10 
 
     def __init__(self):
         print("Inside constructor")
