@@ -1,6 +1,5 @@
 import gc
 
-
 class Demo:
     def __init__(self):
         print("Inside constructor")
