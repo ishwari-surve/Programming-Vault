@@ -1,7 +1,7 @@
 #Functional approach
 
 #def CheckEven(No):
-   # return(No % 2 == 0)
+   # return(No % 2 == 0) 
 
 CheckEven =lambda No:(No % 2 == 0)
         
