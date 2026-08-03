@@ -3,8 +3,6 @@
 def CheckEven(No):
     return(No % 2 == 0)
         
-    
-
 def main():
     Value = 0  #local variable
     Ret = False
