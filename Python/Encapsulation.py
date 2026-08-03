@@ -1,7 +1,7 @@
 class Arithematic:
     def __init__(self,A,B):
         self.No1=A
-        self.No2=B
+        self.No2=B 
         print("Object gets created successfully")
 
     def Addition(self):
