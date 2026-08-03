@@ -1,6 +1,5 @@
 from functools import reduce
 
-
 Checkeven  =lambda No :(No % 2 == 0)
 
 Increment=lambda No :No + 1
