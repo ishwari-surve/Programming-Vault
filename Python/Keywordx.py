@@ -8,7 +8,7 @@ def EmployeeInfo(Name,Age,Salary,City):
 
 def main():
     #Keyword argumnets
-     EmployeeInfo(Age=26,Name="Rahul",City="Pune",Salary=None) #correct
+     EmployeeInfo(Age=26,Name="Ishwari",City="Pune",Salary=None) #correct
    
 
 
