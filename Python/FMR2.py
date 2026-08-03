@@ -1,7 +1,7 @@
 def Checkeven(No):
     return(No % 2 == 0)
 
-def Increment(No):
+def Increment(No): 
     return No+1
 
 def main():
