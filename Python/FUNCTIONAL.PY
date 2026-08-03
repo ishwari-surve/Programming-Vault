@@ -1,5 +1,5 @@
 Addition= lambda A,B : A+B
-   
+    
 Substraction = lambda A,B : A-B
 
 No1=0
