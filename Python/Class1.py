@@ -1,4 +1,4 @@
-class Demo:
+class Demo: 
     def __init__(self):
         print("Inside constructor")
 
