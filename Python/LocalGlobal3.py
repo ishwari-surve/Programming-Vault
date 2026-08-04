@@ -1,7 +1,7 @@
 No = 11            #data defination      #Global
 
 def Fun():
-  No = 21
+  No = 21 
   print("Value of No from Fun is:",No) #11
   No = No + 1
   print("Value of No from Fun is:",No)
