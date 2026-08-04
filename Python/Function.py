@@ -6,4 +6,4 @@ def Addition(No1,No2):
 
 Result=Addition(10,11)
 
-print("Addition is:",Result)                                         
+print("Addition is:",Result)                                        
