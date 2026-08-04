@@ -1,5 +1,5 @@
 def main():
-    Size = 0
+    Size = 0 
     Value = 0
 
     print("Enter the number of elements:")
