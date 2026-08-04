@@ -1,4 +1,3 @@
-
 #Not a good programming practice
 def main():
  print("Inside main")
