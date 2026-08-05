@@ -2,7 +2,7 @@ import threading
 
 def Display(No):
     print("Inside Display:",No)
-
+ 
 
 def main():
     t=threading.Thread(target=Display,args=(11,))
