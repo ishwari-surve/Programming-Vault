@@ -1,6 +1,6 @@
 #Dunder method / Magic method / Special method
 
-class Demo:
+class Demo: 
     def __init__(self,A):
         self.No = A
 
