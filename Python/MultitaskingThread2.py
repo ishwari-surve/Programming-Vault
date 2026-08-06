@@ -3,8 +3,6 @@ import threading
 def display():   #callback function
     print("Inside Display function",threading.get_ident())
 
-
-
 def main():
     print("Inside main",threading.get_ident())
     t=threading.Thread(target=display)
