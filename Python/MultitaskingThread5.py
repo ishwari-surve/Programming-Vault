@@ -5,7 +5,6 @@ def display():   #callback function
     for i in range(10):
         print("Inside display")
 
-
 def main():
     print("Inside main",threading.get_ident())
     t1=threading.Thread(target=display)
