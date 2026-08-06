@@ -1,6 +1,6 @@
 import os
 
-def main():
+def main(): 
     print(os.cpu_count())
 
    
