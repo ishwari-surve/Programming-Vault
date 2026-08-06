@@ -5,7 +5,6 @@ def display():   #callback function
     for i in range(100):
         print("Inside display")
 
-
 def main():
     print("Inside main",threading.get_ident())
     t=threading.Thread(target=display)
@@ -15,7 +14,6 @@ def main():
     print("End of main")
     
 
-   
-    
+       
 if __name__=="__main__":
     main()
