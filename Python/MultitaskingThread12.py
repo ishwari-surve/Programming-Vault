@@ -1,7 +1,7 @@
 import threading
 import time
 
-def SumEven(No):
+def SumEven(No): 
     sum=0
     for i in range(2,No+1,2):
         sum=sum + i
