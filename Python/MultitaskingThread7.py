@@ -3,7 +3,6 @@ import threading
 def Display(No):
     print("Inside Display:",No)
 
-
 def main():
     Display(11)
     
