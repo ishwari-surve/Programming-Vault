@@ -1,4 +1,4 @@
-class Arithematic:
+class Arithematic: 
     def Addition(self,A,B):
         return A+B
 
