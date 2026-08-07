@@ -1,6 +1,5 @@
 no=21
 
-
 print(no+2) #23
 print(no-2) #19
 print(no*2) #42
