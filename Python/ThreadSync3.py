@@ -4,7 +4,7 @@ iCnt=0
 lobj = threading.Lock()
 
 def Update():
-    global iCnt
+    global iCnt 
 
     for _ in range(2000000):
         with lobj:
