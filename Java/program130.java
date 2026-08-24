@@ -1,7 +1,7 @@
 import java.util.*;
 
 class StringX
-{
+{ 
     public String Update(String str)
     {
         int i = 0;
