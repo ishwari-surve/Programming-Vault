@@ -8,7 +8,7 @@ class program241
 
         BufferedReader bobj = new BufferedReader(new InputStreamReader(System.in));
     
-        System.out.println("Enter number : ");
+        System.out.println("Enter number : "); 
         iNo = Integer.parseInt(bobj.readLine());
 
         System.out.println("Input value is : "+iNo);
