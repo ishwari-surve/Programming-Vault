@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Matrix
-{
+{ 
     protected int Arr[][];
     protected int iRow;
     protected int iCol;
