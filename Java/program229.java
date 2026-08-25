@@ -2,7 +2,7 @@ import java.util.*;
 
 class Matrix
 {
-    public int Arr[][];
+    public int Arr[][]; 
 
     public Matrix(int iRow, int iCol)
     {
