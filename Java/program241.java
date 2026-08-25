@@ -1,6 +1,6 @@
 import java.io.*;
 
-class program241
+class program241 
 {
     public static void main(String A[]) throws Exception
     {
