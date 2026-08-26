@@ -5,7 +5,7 @@
 
 import java.io.*;
 
-class program805
+class program243
 {
     public static void main(String A[]) throws Exception
     {
