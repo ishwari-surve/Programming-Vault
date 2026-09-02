@@ -36,7 +36,7 @@ class ArrayX
     }
 }
 
-class program277
+class program276
 {
     public static void main(String A[])
     {
