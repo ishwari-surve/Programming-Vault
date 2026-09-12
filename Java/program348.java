@@ -1,9 +1,7 @@
 // Q5 Student ranking system
 
 import java.util.*;
-
-
- class program348
+class program348
 {
     public static void main(String A[])
     {
