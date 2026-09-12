@@ -3,7 +3,7 @@
 import java.util.*;
 
 class Student
-{
+{ 
     public String name;
     public int marks;
 
