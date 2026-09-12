@@ -1,5 +1,5 @@
 // Compareto concept
-
+ 
 import java.util.*;
 
 class program350
