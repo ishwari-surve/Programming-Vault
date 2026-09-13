@@ -1,6 +1,6 @@
 print("Enter first number :")
 i = float(input())
-
+ 
 print("Enter second number :")
 j = float(input())
 
