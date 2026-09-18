@@ -1,0 +1,23 @@
+class NumberX:
+    def CheckPrime(self, iNo):
+        iCnt = 0
+        bFlag = True
+
+        for iCnt in range(2, (iNo // 2) + 1):
+            if (iNo % iCnt) == 0:
+                bFlag = False
+                break
+
+        return bFlag
+
+
+iValue = int(input("Enter number : "))
+
+nobj = NumberX()
+
+bRet = nobj.CheckPrime(iValue)
+
+if bRet == True:
+    print("It is prime")
+else:
+    print("It is not prime")
