@@ -2,7 +2,7 @@ def Display(iPtr):
     print(iPtr[0])
 
     iPtr = iPtr[1:]
-
+ 
     print(iPtr[0])
 
     iPtr = iPtr[1:]
