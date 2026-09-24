@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<fcntl.h>      // Only Linux based 
 #include<unistd.h>  
-
+ 
 int main()
 {
     int fd = 0;             // File Descriptior
