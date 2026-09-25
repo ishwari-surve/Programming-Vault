@@ -1,7 +1,7 @@
 import java.util.*;
 
-class program425
-{
+class program358
+{ 
     public static void main(String A[])
     {
         HashMap<Integer,String> hobj =
