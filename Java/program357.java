@@ -17,7 +17,7 @@ class Student
     }
 }
 
-class program424
+class program357
 {
     public static void main(String A[])
     {
