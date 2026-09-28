@@ -1,6 +1,6 @@
 import java.util.*;
 
-class program386
+class program386 
 {
     public static void main(String A[])
     {
