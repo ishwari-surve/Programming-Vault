@@ -2,7 +2,7 @@ def LinearSearch(Arr,iSize,iNo):
     iCnt = 0
     iCount = 0
 
-    for iCnt in range(0,iSize):
+    for iCnt in range(0,iSize): 
         if Arr[iCnt] == iNo:
             iCount = iCount + 1
  
