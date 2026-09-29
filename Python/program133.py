@@ -5,7 +5,7 @@ def LinearSearch(Arr,iSize):
     for iCnt in range(0,iSize):
         if Arr[iCnt] == 11:
             bFlag = True
-            break
+            break 
 
     return bFlag
 
