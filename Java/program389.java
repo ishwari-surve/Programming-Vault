@@ -2,7 +2,7 @@ import java.util.*;
 
 class program389
 {
-    public static void main(String A[])
+    public static void main(String A[]) 
     {
         HashMap<String,Integer> hobj = new HashMap<String,Integer>();
 
