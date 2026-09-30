@@ -1,7 +1,7 @@
 import java.util.*;
 
 class program391
-{
+{ 
     public static void main(String A[])
     {
         LinkedHashMap<Integer,String> lobj = new LinkedHashMap<Integer,String>(3,0.75f,true);
