@@ -4,16 +4,19 @@ class program399
 {
     public static void main(String A[])
     {
-        HashMap<String,Integer> hobj = new HashMap<String,Integer>();
+        HashMap<String,Integer> inventory = new HashMap<String,Integer>();
 
-        hobj.put("A",90);
-        hobj.put("B",70);
-        hobj.put("C",80); 
+        inventory.put("Laptop",10);
+        inventory.put("Mouse",25);
+        inventory.put("Keyboard",15);
+        inventory.put("Monitor",8);
 
-        ArrayList<Map.Entry<String,Integer>> list = new ArrayList<>(hobj.entrySet());
+        System.out.println("Inventory Details");
 
-        Collections.sort(list,(a,b) -> a.getValue()-b.getValue());
-
-        System.out.println(list);
+        for(Map.Entry<String,Integer> entry : inventory.entrySet())
+        {
+            System.out.println(entry.getKey()+" : "
+                                + entry.getValue());
+        }
     }
 }
