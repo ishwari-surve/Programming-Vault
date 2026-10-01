@@ -9,7 +9,7 @@ def LinearSearch(Arr,iSize,iNo):
     if iCount == 0:
         return False
     else:
-        return True
+        return True 
 
 print("Enter the number of elements : ")
 iLength = int(input())
