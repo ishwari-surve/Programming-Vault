@@ -3,7 +3,7 @@ def CountFrequency(Arr, iSize):
 
     for iCnt in range(iSize):
         if Arr[iCnt] == 11:
-            iCount += 1
+            iCount += 1 
 
     return iCount
 
