@@ -8,7 +8,7 @@ def LinearSearch(Arr, iSize):
 
     return bFlag
 
-
+ 
 iLength = int(input("Enter the number of elements : "))
 
 Brr = []
