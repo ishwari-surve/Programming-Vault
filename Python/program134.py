@@ -5,7 +5,7 @@ def LinearSearch(Arr,iSize,iNo):
     for iCnt in range(0,iSize):
         if Arr[iCnt] == iNo:
             bFlag = True 
-            break
+            break 
 
     return bFlag
 
