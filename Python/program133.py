@@ -1,5 +1,5 @@
 def LinearSearch(Arr,iSize):
-    iCnt = 0
+    iCnt = 0 
     bFlag = False
 
     for iCnt in range(0,iSize):
