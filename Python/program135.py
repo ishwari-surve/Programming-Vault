@@ -4,7 +4,7 @@ def LinearSearch(Arr,iSize,iNo):
 
     for iCnt in range(0,iSize): 
         if Arr[iCnt] == iNo:
-            iCount = iCount + 1
+            iCount = iCount + 1 
  
     if iCount == 0:
         return False
