@@ -3,7 +3,7 @@ def CountOdd(Arr, iSize):
 
     for iCnt in range(iSize):
         if Arr[iCnt] % 2 != 0:
-            iCount += 1
+            iCount += 1 
 
     return iCount
 
