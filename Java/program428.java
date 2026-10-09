@@ -3,7 +3,7 @@ import java.util.*;
 class program428
 {
     public static void main(String A[])
-    {
+    { 
         String str = "aabbccddefg";
 
         HashMap<Character, Integer> hmap = new HashMap<Character, Integer>(); 
