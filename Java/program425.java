@@ -9,7 +9,7 @@ enum Day
     SUNDAY
 }
 
-class program492
+class program425
 {
     public static void main(String A[])
     {
