@@ -2,7 +2,7 @@ import java.util.regex.*;
 
 class program429
 {
-    public static void main(String A[])
+    public static void main(String A[]) 
     {
         String strEmail = "abc@gmail.com";
 
