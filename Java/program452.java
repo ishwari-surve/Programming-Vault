@@ -9,3 +9,4 @@ class program452
         System.out.println(pobj.test(75));
     } 
 }
+ 
