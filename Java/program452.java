@@ -7,5 +7,5 @@ class program452
         Predicate<Integer> pobj = no -> no > 50;
 
         System.out.println(pobj.test(75));
-    }
+    } 
 }
