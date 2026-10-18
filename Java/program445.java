@@ -5,7 +5,7 @@ interface StringLength
  
 class program445
 {
-    public static void main(String A[])
+    public static void main(String A[]) 
     {
         StringLength obj = str -> str.length();
 
