@@ -1,1 +1,18 @@
-//530
+import java.io.*;
+
+class program464
+{
+    public static void main(String A[])
+    {
+        File fobj = new File("ABC");
+
+        if(fobj.mkdir())
+        { 
+            System.out.println("Directory Created");
+        }
+        else
+        {
+            System.out.println("Directory Already Exists");
+        }
+    }
+}
