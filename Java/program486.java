@@ -4,7 +4,7 @@ class Employee
     {
         System.out.println("Basic Salary Calculation");
     }
-}
+} 
  
 class Manager extends Employee
 {
@@ -17,7 +17,7 @@ class Manager extends Employee
     }
 }
 
-class program552 
+class program486
 {
     public static void main(String A[])
     {
