@@ -2,7 +2,7 @@ class Grandparent
 {
     void DisplayGrandparent()
     {
-        System.out.println("This is Grandparent class");
+        System.out.println("This is Grandparent class"); 
     }
 }
 
