@@ -9,7 +9,7 @@ class Car extends Vehicle
 
     void Display()
     {
-        System.out.println("Child Brand  : " + strBrand);
+        System.out.println("Child Brand  : " + strBrand); 
         System.out.println("Parent Brand : " + super.strBrand);
     }
 }
