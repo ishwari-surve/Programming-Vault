@@ -1,29 +1,29 @@
-# Program 006 – Runtime Polymorphism using Dynamic Method Dispatch
+# Program 007 – Abstract Class and Abstract Methods
 
 ## Description
-This Java program demonstrates runtime polymorphism using dynamic method dispatch. A parent class reference is used to refer to objects of different child classes. The overridden method is selected at runtime based on the actual object.
+This Java program demonstrates abstraction using an abstract class named Shape and its abstract methods. The Circle and Rectangle classes extend Shape and provide their own implementations for calculating area and perimeter.
 
 ## Concepts Used
 - Classes and Objects
+- Abstraction
+- Abstract Classes
+- Abstract Methods
 - Inheritance
 - Method Overriding
 - Runtime Polymorphism
-- Dynamic Method Dispatch
-- Parent Class Reference
-- @Override Annotation
 
 ## Functionality
-- Defines a parent class named Animal.
-- Creates Dog, Cat, and Cow child classes.
-- Overrides the Sound() method in each child class.
-- Uses a parent class reference to access different child class objects.
-- Demonstrates method selection at runtime.
+- Defines an abstract class named Shape.
+- Implements Circle and Rectangle child classes.
+- Calculates the area of a circle and rectangle.
+- Calculates the perimeter of both shapes.
+- Uses a parent class reference to access child class objects.
 
 ## Program Structure
 ```text
-006-Runtime-Polymorphism-Dynamic-Method-Dispatch/
+007-Abstract-Class-and-Abstract-Methods/
 │
-├── program006.java
+├── program007.java
 └── README.md
 ```
 
@@ -31,12 +31,12 @@ This Java program demonstrates runtime polymorphism using dynamic method dispatc
 
 Compile:
 ```bash
-javac program006.java
+javac program007.java
 ```
 
 Execute:
 ```bash
-java program006
+java program007
 ```
 
 ## Author
