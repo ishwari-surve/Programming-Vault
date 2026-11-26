@@ -2,7 +2,7 @@
 /*
 ===============================================================================
 Program Name    : Anagram String Check
-Program Number  : 011
+Program Number  : 01
 Description     : This program checks whether two given strings are
                   anagrams by comparing their character frequencies.
 
