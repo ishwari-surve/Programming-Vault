@@ -22,9 +22,9 @@ This Java program checks whether two given strings are anagrams of each other. I
 
 ## Program Structure
 ```text
-011-Anagram-String-Check/
+01-Anagram-String-Check/
 │
-├── program011.java
+├── program01.java
 └── README.md
 ```
 
@@ -32,12 +32,12 @@ This Java program checks whether two given strings are anagrams of each other. I
 
 Compile:
 ```bash
-javac program011.java
+javac program01.java
 ```
 
 Execute:
 ```bash
-java program011
+java program01
 ```
 
 ## Author
