@@ -22,9 +22,9 @@ This Java program identifies duplicate characters in a given string and displays
 
 ## Program Structure
 ```text
-012-Duplicate-Characters-in-String/
+02-Duplicate-Characters-in-String/
 │
-├── program012.java
+├── program02.java
 └── README.md
 ```
 
@@ -32,12 +32,12 @@ This Java program identifies duplicate characters in a given string and displays
 
 Compile:
 ```bash
-javac program012.java
+javac program02.java
 ```
 
 Execute:
 ```bash
-java program012
+java program02
 ```
 
 ## Author
