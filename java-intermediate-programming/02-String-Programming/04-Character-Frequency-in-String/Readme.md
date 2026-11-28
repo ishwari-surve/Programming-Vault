@@ -1,5 +1,5 @@
 # Program 04 – Character Frequency in a String
-
+ 
 ## Description
 This Java program counts the frequency of each character in a given string using LinkedHashMap. It maintains the insertion order of characters and displays each character along with its occurrence count.
 
