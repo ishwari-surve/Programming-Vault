@@ -1,4 +1,4 @@
-# Program 015 – Reverse Each Word in a Sentence
+# Program 05 – Reverse Each Word in a Sentence
 
 ## Description
 This Java program reverses each individual word in a given sentence while maintaining the original order of the words. It uses the StringBuilder class and its reverse() method to perform word-wise reversal.
@@ -23,7 +23,7 @@ This Java program reverses each individual word in a given sentence while mainta
 ```text
 05-Reverse-Each-Word-in-Sentence/
 │
-├── program015.java
+├── program05.java
 └── README.md
 ```
 
@@ -31,12 +31,12 @@ This Java program reverses each individual word in a given sentence while mainta
 
 Compile:
 ```bash
-javac program015.java
+javac program05.java
 ```
 
 Execute:
 ```bash
-java program015
+java program05
 ```
 
 ## Author
